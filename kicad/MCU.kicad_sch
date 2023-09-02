@@ -1669,7 +1669,7 @@
     (pin "7" (uuid 15a00388-98ad-4ee2-a870-12cf6650b71a))
     (pin "8" (uuid 340f9ede-f29a-41f2-ab18-4a374d115e44))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "U34") (unit 1)
         )
@@ -1698,7 +1698,7 @@
     (pin "1" (uuid 9dd517e8-9f6c-4e43-900e-8d7127dbd4b8))
     (pin "2" (uuid e4809f30-1f54-40a7-9be8-fb68c5b11d42))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "R142") (unit 1)
         )
@@ -1727,7 +1727,7 @@
     (pin "1" (uuid e8edcb85-cf79-4338-816f-999e0a388f51))
     (pin "2" (uuid bbce7917-2743-418e-a86b-3e2c48d8c583))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "C40") (unit 1)
         )
@@ -1755,7 +1755,7 @@
     )
     (pin "1" (uuid d4763a32-df0d-4ea6-9df0-8e3ceb6bfcf5))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR093") (unit 1)
         )
@@ -1783,7 +1783,7 @@
     )
     (pin "1" (uuid b3a50cff-aa52-456e-bd20-59c20fd9ce4a))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR094") (unit 1)
         )
@@ -1874,7 +1874,7 @@
     (pin "8" (uuid 81a9661f-6210-4db1-b1de-d4903b06af12))
     (pin "9" (uuid 02dc3bc9-398b-46fd-9981-674ac9a9c401))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/bb4c6abb-96c2-4de6-af9e-637895d0c9f4"
           (reference "U10") (unit 1)
         )
@@ -1900,7 +1900,7 @@
     (pin "1" (uuid 0f37e853-d43c-48f4-b0fd-41d7254d5388))
     (pin "2" (uuid c2e38644-656a-42c9-bafd-a368a7abb57a))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "C38") (unit 1)
         )
@@ -1928,7 +1928,7 @@
     )
     (pin "1" (uuid 025a2d00-605a-41fa-bcd0-f40e765f883d))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR0140") (unit 1)
         )
@@ -1956,7 +1956,7 @@
     )
     (pin "1" (uuid 1e445b7c-1e0a-40d9-91b2-509ebbdafe71))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/bb4c6abb-96c2-4de6-af9e-637895d0c9f4"
           (reference "#PWR029") (unit 1)
         )
@@ -1981,7 +1981,7 @@
     )
     (pin "1" (uuid 61a973c0-c930-460f-99a2-4decc3e2b47d))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR0100") (unit 1)
         )
@@ -2009,7 +2009,7 @@
     )
     (pin "1" (uuid f564cd67-25b1-4081-acd8-98b0781f9f64))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR097") (unit 1)
         )
@@ -2037,7 +2037,7 @@
     )
     (pin "1" (uuid da1e06ca-62e7-46b3-90df-6a63c46c96fc))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR098") (unit 1)
         )
@@ -2066,7 +2066,7 @@
     (pin "1" (uuid 19b82be2-a231-418d-b2ae-1e5ccce2560a))
     (pin "2" (uuid 79121885-27f8-4d58-9981-3c8269e7c08b))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "C36") (unit 1)
         )
@@ -2094,7 +2094,7 @@
     )
     (pin "1" (uuid 6be351e2-f439-43e6-a9a1-d56d0885021b))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR099") (unit 1)
         )
@@ -2123,7 +2123,7 @@
     (pin "1" (uuid b9ebe85d-635d-481b-8f3d-83b1205e1cd3))
     (pin "2" (uuid f737dabf-af48-445f-8d22-1764f33baceb))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "C34") (unit 1)
         )
@@ -2152,7 +2152,7 @@
     (pin "1" (uuid 3bb1999f-f548-4295-8e21-ce104f295014))
     (pin "2" (uuid 998b3eec-19df-4cf4-9a61-95282cdf207e))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "C35") (unit 1)
         )
@@ -2180,7 +2180,7 @@
     )
     (pin "1" (uuid 08419a95-b446-45ae-8081-98c9851af081))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR0137") (unit 1)
         )
@@ -2208,7 +2208,7 @@
     )
     (pin "1" (uuid 1b86d537-5db6-4e69-b659-4853890e7cc1))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR0141") (unit 1)
         )
@@ -2236,7 +2236,7 @@
     )
     (pin "1" (uuid 93c9c220-eea5-449d-a0e4-604297455fb5))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "#PWR0136") (unit 1)
         )
@@ -2265,7 +2265,7 @@
     (pin "1" (uuid d3f14078-20e5-415e-af1e-dd36c253280c))
     (pin "2" (uuid ccd985cd-a2fc-45a6-9f01-54aaf9044f93))
     (instances
-      (project "SmartBMS"
+      (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/12d9a724-445f-445b-89ea-1a4697ea3bb2"
           (reference "Y2") (unit 1)
         )

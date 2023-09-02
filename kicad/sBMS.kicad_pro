@@ -396,7 +396,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SmartBMS.kicad_pro",
+    "filename": "sBMS.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -485,6 +485,10 @@
     [
       "7f25f26f-13d1-483f-a85d-b3abae309e30",
       ""
+    ],
+    [
+      "3045692e-7230-49c2-a7e4-9d00ed8073c1",
+      "Ports"
     ],
     [
       "586d6094-13b2-405c-a178-99788d20f6be",

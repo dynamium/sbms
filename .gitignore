@@ -1,0 +1,5 @@
+cubemx
+*.lck
+*-backups
+fp-info-cache
+*-bak

@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ada66c81-a23f-4cf5-b37e-3b45be76b1cb)
+
+  (paper "A4")
+
+  (title_block
+    (title "Cell balancing")
+    (date "2023-08-30")
+    (rev "1")
+    (company "Dynamium")
+  )
+
+  (lib_symbols
+  )
+
+)

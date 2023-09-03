@@ -11,5 +11,5 @@ Open-source SmartBMS design made for self-balancing electric vehicles.
 - Current sensing with [_TMCS1123_](https://www.ti.com/lit/ds/symlink/tmcs1123.pdf), on discharge **and** charge paths
 - Powered by **_STM32G0B1_**
 - BMS-Controller communication via **CAN-FD and OpenCyphal**
-- Over-current charging protection and no protection on the discharge path
+- Over-current protection **on the charging path** 
 - And much more!

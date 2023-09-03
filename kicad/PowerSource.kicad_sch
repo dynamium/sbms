@@ -1076,7 +1076,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 869ef928-3690-42b7-a345-e18ac437a0bb)
   )
-  (text "Battery voltage to 15V" (at 58.42 52.07 0)
+  (text "7.5V-450V to 15V" (at 58.42 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f9983d04-d73d-417c-8e09-133eaf2670a2)
   )

@@ -4,7 +4,9 @@ cubemx
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
+\#auto_saved_files#
 *.kicad_sch-bak
 *.kicad_prl
 *.sch-bak

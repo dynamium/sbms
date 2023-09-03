@@ -1,6 +1,6 @@
 # sBMS
 
-Open-source SmartBMS design made for self-balancing electric vehicles.
+Open-source SmartBMS design made for self-balancing electric vehicles, like EUCs and Onewheels.
 
 ## Features
 
@@ -11,5 +11,5 @@ Open-source SmartBMS design made for self-balancing electric vehicles.
 - Current sensing with [_TMCS1123_](https://www.ti.com/lit/ds/symlink/tmcs1123.pdf), on discharge **and** charge paths
 - Powered by [**_STM32G0B1_**](https://www.st.com/resource/en/datasheet/dm00748675.pdf)
 - BMS-Controller communication via **CAN-FD and OpenCyphal**
-- Over-current protection **on the charging path** 
+- Hardware over-current protection **on the charging path** 
 - And much more!

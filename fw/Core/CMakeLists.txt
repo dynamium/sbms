@@ -14,6 +14,7 @@ target_sources(sBMS.elf PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32g0xx_it.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/system_stm32g0xx.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/tim.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/cell_monitor.cpp
 )
 
 target_include_directories(sBMS.elf PUBLIC

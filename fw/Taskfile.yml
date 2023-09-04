@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - make -j4
+    dir: build
+    silent: true
+  clean:
+    cmds:
+      - rm -rf build
+      - mkdir build
+      - cd build && cmake ..
+    silent: true

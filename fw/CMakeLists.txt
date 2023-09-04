@@ -41,7 +41,8 @@ add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR
 add_link_options(-specs=nosys.specs -lstdc++ -mcpu=${CPU} -mthumb -mthumb-interwork -T ${LINKER_SCRIPT})
 
 add_compile_options(-mcpu=${CPU} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
-add_compile_definitions(USE_HAL_DRIVER ${MCU})
+add_compile_definitions(USE_HAL_DRIVER ${MCU} USE_FULL_LL_DRIVER)
+
 
 string(TIMESTAMP BUILD_TIMESTAMP_UNIX "+%s")
 string(TIMESTAMP BUILD_TIMESTAMP "%d-%m-%Y")

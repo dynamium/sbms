@@ -1,1 +1,3 @@
-# for now empty, but when needed can be filled up
+# i gotta fill this with automatic replacement of
+# sources in Drivers/CMakeLists.txt with those
+# in the Makefile

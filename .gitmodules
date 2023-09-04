@@ -1,0 +1,3 @@
+[submodule "fw/Lib/uWLKV"]
+	path = fw/Lib/uWLKV
+	url = https://github.com/Gordon01/uWLKV.git

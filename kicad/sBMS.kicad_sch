@@ -50,10 +50,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 32540a73-6b09-49ab-bfc5-c3bc408d4488)
-    (property "Sheetname" "Power source" (at 63.5 61.5184 0)
+    (property "Sheetname" "Power management" (at 63.5 61.5184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "PowerSource.kicad_sch" (at 63.5 86.9446 0)
+    (property "Sheetfile" "PowerManagement.kicad_sch" (at 63.5 86.9446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

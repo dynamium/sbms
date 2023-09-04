@@ -1,3 +1,6 @@
 [submodule "fw/Lib/uWLKV"]
 	path = fw/Lib/uWLKV
 	url = https://github.com/Gordon01/uWLKV.git
+[submodule "fw/Lib/libcanard"]
+	path = fw/Lib/libcanard
+	url = https://github.com/OpenCyphal/libcanard.git

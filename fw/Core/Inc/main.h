@@ -65,8 +65,10 @@ void Error_Handler(void);
 #define Bat_ChargeCurrentSensor_GPIO_Port GPIOA
 #define BalanceEnable_Pin GPIO_PIN_0
 #define BalanceEnable_GPIO_Port GPIOB
-#define ChargeEnable_Pin GPIO_PIN_1
-#define ChargeEnable_GPIO_Port GPIOB
+#define ChargeControl_Pin GPIO_PIN_1
+#define ChargeControl_GPIO_Port GPIOB
+#define ChargeInputVoltage_Pin GPIO_PIN_2
+#define ChargeInputVoltage_GPIO_Port GPIOB
 #define Bat_Discharge_SensorAlert_Pin GPIO_PIN_8
 #define Bat_Discharge_SensorAlert_GPIO_Port GPIOA
 #define StatusLED1_Pin GPIO_PIN_6

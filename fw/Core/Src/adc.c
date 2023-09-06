@@ -94,15 +94,22 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
     __HAL_RCC_ADC_CLK_ENABLE();
 
     __HAL_RCC_GPIOA_CLK_ENABLE();
+    __HAL_RCC_GPIOB_CLK_ENABLE();
     /**ADC1 GPIO Configuration
     PA0     ------> ADC1_IN0
     PA1     ------> ADC1_IN1
     PA2     ------> ADC1_IN2
+    PB2     ------> ADC1_IN10
     */
     GPIO_InitStruct.Pin = Bat_Voltage_Pin|Bat_DischargeCurrentSensor_Pin|Bat_ChargeCurrentSensor_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = ChargeInputVoltage_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(ChargeInputVoltage_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN ADC1_MspInit 1 */
 
@@ -125,8 +132,11 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
     PA0     ------> ADC1_IN0
     PA1     ------> ADC1_IN1
     PA2     ------> ADC1_IN2
+    PB2     ------> ADC1_IN10
     */
     HAL_GPIO_DeInit(GPIOA, Bat_Voltage_Pin|Bat_DischargeCurrentSensor_Pin|Bat_ChargeCurrentSensor_Pin);
+
+    HAL_GPIO_DeInit(ChargeInputVoltage_GPIO_Port, ChargeInputVoltage_Pin);
 
   /* USER CODE BEGIN ADC1_MspDeInit 1 */
 

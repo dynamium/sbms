@@ -103,6 +103,7 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_RTC_Init();
+  MX_TIM14_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -127,8 +128,7 @@ int main(void)
 }
 
 /**
- * @brief 
- * 
+  * @brief System Clock Configuration
   * @retval None
   */
 void SystemClock_Config(void)

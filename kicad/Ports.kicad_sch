@@ -6,7 +6,7 @@
 
   (title_block
     (title "Ports/Connectors")
-    (date "2023-08-20")
+    (date "2023-09-06")
     (rev "1")
     (company "Dynamium")
   )
@@ -397,10 +397,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "-CHARGE" (shape input) (at 43.18 27.94 0) (fields_autoplaced)
+  (global_label "-CHARGE_Controller" (shape input) (at 43.18 27.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ac202797-85d6-4cbb-8b40-ae93a6644baf)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.1157 27.94 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 65.5174 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )

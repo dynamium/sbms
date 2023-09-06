@@ -5,7 +5,8 @@
   (paper "User" 150.012 150.012)
 
   (title_block
-    (date "2023-08-20")
+    (date "2023-09-06")
+    (rev "1")
   )
 
   (lib_symbols

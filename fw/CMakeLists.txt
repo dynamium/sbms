@@ -62,9 +62,9 @@ option(CELL_TYPE "Cell type. Supported: Li-ion, LiPo" Li-ion)
 
 # Settings that can be changed from CAN and are just defaults here
 option(CONTROLLED_SELF_DISCHARGE "Controlled self-discharge to go down to nominal storage voltages when required" ON)
-option(AUTOMATIC_STORAGE_DISCHARGE "If some time passes (AUTOMATIC_STORAGE_DISCHARGE_TIME) and the 
+option(AUTOSTORAGE "If some time passes (AUTOSTORAGE_TIME) and the 
     battery is on standby, sBMS will automatically start putting the battery into storage mode by discharging it to nominal voltage." ON)
-option(AUTOMATIC_STORAGE_DISCHARGE_TIME "Refer to AUTOMATIC_STORAGE_DISCHARGE for more info. In weeks." 4)
+option(AUTOSTORAGE_TIME "Refer to AUTOSTORAGE for more info. In weeks." 4)
 
 option(DISCHARGE_CURRENT_WARNING "Discharge current warning" ON)
 option(DISCHARGE_CURRENT_WARNING_THRESHOLD "Amount of discharge current that triggers a warning. In amps." 2)

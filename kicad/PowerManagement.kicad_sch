@@ -1590,8 +1590,8 @@
     (uuid 2120f44c-59fd-4590-8c5a-25b40ce3f3c9)
   )
   (text "According to the datasheet,\n100nF on C199 corresponds\nto 23 ms of startup time"
-    (at 176.53 46.99 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (at 196.85 54.61 0)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 222217e2-1703-4ac3-876b-ab15539090e3)
   )
   (text "15V@300mA\n" (at 127 50.8 0)

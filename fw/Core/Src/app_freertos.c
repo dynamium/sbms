@@ -68,17 +68,24 @@ const osThreadAttr_t chargeMonitor_attributes = {
   .priority = (osPriority_t) osPriorityHigh,
   .stack_size = 128 * 4
 };
-/* Definitions for canHandler */
-osThreadId_t canHandlerHandle;
-const osThreadAttr_t canHandler_attributes = {
-  .name = "canHandler",
-  .priority = (osPriority_t) osPriorityNormal,
-  .stack_size = 128 * 4
-};
 /* Definitions for currentMonitor */
 osThreadId_t currentMonitorHandle;
 const osThreadAttr_t currentMonitor_attributes = {
   .name = "currentMonitor",
+  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 128 * 4
+};
+/* Definitions for canHandler */
+osThreadId_t canHandlerHandle;
+const osThreadAttr_t canHandler_attributes = {
+  .name = "canHandler",
+  .priority = (osPriority_t) osPriorityBelowNormal,
+  .stack_size = 128 * 4
+};
+/* Definitions for cyphalStatus */
+osThreadId_t cyphalStatusHandle;
+const osThreadAttr_t cyphalStatus_attributes = {
+  .name = "cyphalStatus",
   .priority = (osPriority_t) osPriorityLow,
   .stack_size = 128 * 4
 };
@@ -91,8 +98,9 @@ const osThreadAttr_t currentMonitor_attributes = {
 void StartCellMonitorTask(void *argument);
 void StartStatusLEDTask(void *argument);
 void StartChargeMonitorTask(void *argument);
-void StartCANHandlerTask(void *argument);
 void StartCurrentMonitorTask(void *argument);
+void StartCanHandlerTask(void *argument);
+void StartCyphalStatusTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -132,11 +140,14 @@ void MX_FREERTOS_Init(void) {
   /* creation of chargeMonitor */
   chargeMonitorHandle = osThreadNew(StartChargeMonitorTask, NULL, &chargeMonitor_attributes);
 
-  /* creation of canHandler */
-  canHandlerHandle = osThreadNew(StartCANHandlerTask, NULL, &canHandler_attributes);
-
   /* creation of currentMonitor */
   currentMonitorHandle = osThreadNew(StartCurrentMonitorTask, NULL, &currentMonitor_attributes);
+
+  /* creation of canHandler */
+  canHandlerHandle = osThreadNew(StartCanHandlerTask, NULL, &canHandler_attributes);
+
+  /* creation of cyphalStatus */
+  cyphalStatusHandle = osThreadNew(StartCyphalStatusTask, NULL, &cyphalStatus_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -198,24 +209,6 @@ void StartChargeMonitorTask(void *argument)
   /* USER CODE END StartChargeMonitorTask */
 }
 
-/* USER CODE BEGIN Header_StartCANHandlerTask */
-/**
-* @brief Function implementing the canHandler thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartCANHandlerTask */
-void StartCANHandlerTask(void *argument)
-{
-  /* USER CODE BEGIN StartCANHandlerTask */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END StartCANHandlerTask */
-}
-
 /* USER CODE BEGIN Header_StartCurrentMonitorTask */
 /**
 * @brief Function implementing the currentMonitor thread.
@@ -232,6 +225,42 @@ void StartCurrentMonitorTask(void *argument)
     osDelay(1);
   }
   /* USER CODE END StartCurrentMonitorTask */
+}
+
+/* USER CODE BEGIN Header_StartCanHandlerTask */
+/**
+* @brief Function implementing the canHandler thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartCanHandlerTask */
+void StartCanHandlerTask(void *argument)
+{
+  /* USER CODE BEGIN StartCanHandlerTask */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END StartCanHandlerTask */
+}
+
+/* USER CODE BEGIN Header_StartCyphalStatusTask */
+/**
+* @brief Function implementing the cyphalStatus thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartCyphalStatusTask */
+void StartCyphalStatusTask(void *argument)
+{
+  /* USER CODE BEGIN StartCyphalStatusTask */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END StartCyphalStatusTask */
 }
 
 /* Private application code --------------------------------------------------*/

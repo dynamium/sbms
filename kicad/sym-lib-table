@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sBMS")(type "KiCad")(uri "${KIPRJMOD}/sBMS.kicad_sym")(options "")(descr ""))
+)

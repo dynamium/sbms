@@ -1589,11 +1589,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2120f44c-59fd-4590-8c5a-25b40ce3f3c9)
   )
-  (text "According to the datasheet,\n100nF on C199 corresponds\nto 23 ms of startup time"
-    (at 196.85 54.61 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 222217e2-1703-4ac3-876b-ab15539090e3)
-  )
   (text "15V@300mA\n" (at 127 50.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d798621-63ce-482b-94f1-a86e54973dfa)
@@ -1602,8 +1597,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 869ef928-3690-42b7-a345-e18ac437a0bb)
   )
-  (text "According to the datasheet,\n100nF on C196 corresponds\nto 23 ms of startup time"
-    (at 102.87 85.09 0)
+  (text "According to the STEP4S datasheet,\n100nF on C196/C199 corresponds\nto 23 ms of startup time"
+    (at 38.1 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ce26c89e-4d32-4803-bfcd-32684447e0bd)
   )

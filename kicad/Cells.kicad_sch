@@ -1883,7 +1883,7 @@
   )
 
   (symbol (lib_id "Device:Battery_Cell") (at 69.85 40.64 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ca798a4b-7ae9-446a-9e82-95445b24b8c8)
     (property "Reference" "BT4" (at 71.882 33.02 90)
       (effects (font (size 1.27 1.27)))
@@ -1897,8 +1897,8 @@
     (property "Datasheet" "~" (at 71.374 40.64 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dfad17d4-a583-49a6-9473-01a768f37d16))
-    (pin "2" (uuid 631f05e4-de13-4e9b-80aa-2f54d0687d78))
+    (pin "1" (uuid 06e88c50-e766-471f-9e62-f66ed499777a))
+    (pin "2" (uuid 01a1310e-e90d-4aff-80c7-e0a182611cfc))
     (instances
       (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/586d6094-13b2-405c-a178-99788d20f6be"
@@ -1979,7 +1979,7 @@
   )
 
   (symbol (lib_id "Device:Battery_Cell") (at 31.75 40.64 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d860f89a-5ec2-41af-8d67-b659a2d9a3ee)
     (property "Reference" "BT1" (at 33.782 33.02 90)
       (effects (font (size 1.27 1.27)))
@@ -1993,8 +1993,8 @@
     (property "Datasheet" "~" (at 33.274 40.64 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9598a213-2502-4be8-ae56-a4db0688e295))
-    (pin "2" (uuid e76660df-b9e0-492e-bcef-69cd6e4197fa))
+    (pin "1" (uuid 488b1c87-031e-49c0-bdf3-35efc4f55cab))
+    (pin "2" (uuid a997a6ba-497d-4ccd-9226-117a48289121))
     (instances
       (project "sBMS"
         (path "/7f25f26f-13d1-483f-a85d-b3abae309e30/586d6094-13b2-405c-a178-99788d20f6be"

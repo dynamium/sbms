@@ -102,7 +102,7 @@
     (property "Value" "MLX90632" (at 7.62 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 0 0)
+    (property "Footprint" "sBMS:MLX90632" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)

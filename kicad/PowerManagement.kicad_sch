@@ -2654,7 +2654,7 @@
     (property "Value" "IRF644SPBF" (at 173.99 85.09 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "D2PAK_VIS" (at 162.56 83.82 0)
+    (property "Footprint" "D2PAK_VIS:D2PAK_VIS" (at 162.56 83.82 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "IRF644SPBF" (at 162.56 83.82 0)
